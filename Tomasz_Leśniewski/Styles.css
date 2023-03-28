@@ -1,0 +1,86 @@
+nav{
+    background-color: #1c74b2;
+    text-align: center;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    min-height: 40px;
+    line-height: 200%;
+}
+
+.menu > li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #0a2b42;
+}
+.menu > li:first-child{
+    border-left: 1px dashed #0a2b42;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #0a2b42;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: rgb(42, 41, 44);
+    color: rgb(197, 178, 178);
+    font-family: 'Courier New';
+}
+.menu2{
+    border: solid black;
+    height: 217px;
+    width: 1898px;
+}
+img{
+    float: left;
+}
+.health{
+    border: solid black;
+    width: 237px;
+    height: 72px;
+}
+.menu2-left{
+    width: 33%;
+    float: left;
+    height: 217px;
+}
+.menu2-center{
+    width: 628px;
+    float: left;
+    height: 217px;
+}
+.menu2-right{
+    
+    width: 33%;
+    float: right;
+    height: 217px;
+}
+.Main{
+    height: 215px;
+    width: 628px;
+    border: solid black 1px;
+}
+.href{
+    text-decoration: none;
+    color: rgb(197, 178, 178);
+}
+.menu2-center-1{
+    float:  right;
+    border: solid black;
+    margin: 6px;
+    height: 90px;
+}

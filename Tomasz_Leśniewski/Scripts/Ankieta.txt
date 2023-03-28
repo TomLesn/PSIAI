@@ -1,0 +1,11 @@
+CREATE TABLE Ankieta(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Answer1 TINYINT,
+    Login_u varchar(100),
+    FName varchar(50),
+    LName varchar(50),
+    Age TINYINT(100),
+    Answer2 varchar(300),
+    Answer3 varchar(300),
+    FOREIGN KEY (Login_u) REFERENCES rej(Login)
+);

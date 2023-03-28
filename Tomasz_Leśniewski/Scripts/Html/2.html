@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class="div-left">
+        <div class="div-left-right">
+            <p>Example:<br><br>First Name: Tom<br><br>Last Name: Jones<br><br>Age: 32<br><br>Question 1: 7/10<br><br>Question 2: Yes it is<br><br>Question 3: Good</p>
+        </div>
+    </div>
+    <div class="div-right"></div>   
+    <div class="div">
+        
+    <form method="post" action="2.php">
+        <label class="label">First Name :<br><input type="text" required name="FName"></label><br><br>
+        <label class="label">Last Name :<br><input type="text" required name="LName"></label><br><br>
+        <label class="label">Age :<br><input type="tel" required pattern="[0-9]{2}" name="Age"></label><br><br>
+        <label class="label">How do you rate our shop? :<br><input type="text" required name="Answer1"></label><br><br>
+        <label class="label">Is this site is helpful? :<br><input type="text" required name="Answer2"></label><br><br>
+        <label class="label">How are you today? :<br><input type="text" required name="Answer3"></label><br><br>
+        <input class="button" type="submit" value="Send">
+    </form>
+</div>
+</body>
+</html>

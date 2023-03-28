@@ -1,0 +1,9 @@
+CREATE TABLE Sklep(
+    Opinion TINYINT AUTO_INCREMENT PRIMARY KEY,
+    Item varchar(50),
+    Amount Int(100),
+    Contact varchar(50),
+    Date_ varchar(20),
+    Color varchar(50),
+    Address_ varchar(50)
+);

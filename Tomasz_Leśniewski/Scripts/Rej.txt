@@ -1,0 +1,4 @@
+CREATE TABLE Rej(
+    Login varchar(100) PRIMARY KEY,
+    Haslo varchar(30)
+);
